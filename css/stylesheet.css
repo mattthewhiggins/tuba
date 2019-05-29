@@ -1,3 +1,7 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .bakerloo {
   height: 19px;
   width: 19px;
@@ -70,6 +74,14 @@
   display: inline-block;
   margin-right:10px;
 }
+.overground {
+  height: 19px;
+  width: 19px;
+  background-color: #E76A10;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right:10px;
+}
 .piccadilly {
   height: 19px;
   width: 19px;
@@ -97,10 +109,16 @@
 
 .title {
   display: inline-block;
+  margin-top: 50px;
   margin-bottom:0;
 }
 
+h2 {
+  font-weight: 400;
+}
 h3 {
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .logo-title {
@@ -110,7 +128,7 @@ h3 {
 
 .logo {
 height: 80px;
-padding-right: 32px;
+padding-right: 24px;
 }
 
 .text-align {

@@ -102,6 +102,19 @@ $.each(data, function (index, value) {
     });
 });
 
+// Overground status
+$.getJSON ('https://api.tfl.gov.uk/Line/london-overground/Status?detail=true&app_key=d5546d678eb40a02b7828e0959089660&app_id=2f02d1e2', function(data) { console.log(data);
+
+$.each(data, function (index, value) {
+  console.log(value);
+
+  var statusoverground = value.lineStatuses[0].statusSeverityDescription;
+  console.log(statusoverground);
+
+  $('.statusoverground').text(statusoverground);
+    });
+});
+
 // Piccadilly status
 $.getJSON ('https://api.tfl.gov.uk/Line/piccadilly/Status?detail=true&app_key=d5546d678eb40a02b7828e0959089660&app_id=2f02d1e2', function(data) { console.log(data);
 
