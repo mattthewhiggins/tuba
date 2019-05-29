@@ -109,7 +109,6 @@ body {
 
 .title {
   display: inline-block;
-  margin-top: 50px;
   margin-bottom:0;
 }
 
@@ -122,17 +121,30 @@ h3 {
 }
 
 .logo-title {
-  display: inline-flex;
+  width: 192px;;
+  margin: 0 auto;
 }
 
 
 .logo {
 height: 80px;
-padding-right: 24px;
 }
 
-.text-align {
-  display: inline-block;
-  margin: auto;
+}
 
+.text-centered {
+  text-align: center;
+}
+
+.tube {
+  width:33.33%;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.tube-list {
+  display: flex;
+  margin-top: 50px;
+  margin-right: 10%;
+  margin-left: 10%;
 }
