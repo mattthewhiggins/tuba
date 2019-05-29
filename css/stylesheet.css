@@ -102,3 +102,19 @@
 
 h3 {
 }
+
+.logo-title {
+  display: inline-flex;
+}
+
+
+.logo {
+height: 80px;
+padding-right: 32px;
+}
+
+.text-align {
+  display: inline-block;
+  margin: auto;
+
+}

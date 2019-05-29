@@ -1,5 +1,3 @@
-<script language="JavaScript" type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
-
 // Bakerloo status
 $.getJSON ('https://api.tfl.gov.uk/Line/bakerloo/Status?detail=true&app_key=d5546d678eb40a02b7828e0959089660&app_id=2f02d1e2', function(data) { console.log(data);
 
