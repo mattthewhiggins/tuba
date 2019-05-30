@@ -16,6 +16,7 @@
     <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <circle id="Oval" fill="url(#linearGradient-1)" cx="200" cy="200" r="200"></circle>
         <circle id="Oval-Copy" fill="url(#linearGradient-2)" cx="200" cy="200" r="200"></circle>
+        <circle id="Oval-Copy-2" fill="#0C2BFF" cx="200" cy="200" r="200"></circle>
         <g transform="translate(71.000000, 95.000000)">
             <circle id="Oval" stroke="#FFFFFF" stroke-width="40" cx="129" cy="105" r="85"></circle>
             <rect id="Rectangle" fill="#FFFFFF" x="0" y="85" width="259" height="40"></rect>
