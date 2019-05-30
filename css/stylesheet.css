@@ -3,105 +3,49 @@ body {
 }
 
 .bakerloo {
-  height: 19px;
-  width: 19px;
   background-color: #B05F21;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right:10px;
 }
 .central {
-  height: 19px;
-  width: 19px;
   background-color: #ED462F;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right:10px;
 }
 .circle {
-  height: 19px;
-  width: 19px;
   background-color: #FBD133;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right:10px;
 }
 .district {
-  height: 19px;
-  width: 19px;
   background-color: #3D843E;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right:10px;
 }
 .elizabeth {
-  height: 19px;
-  width: 19px;
   background-color: #6950A1;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right:10px;
 }
 .hammersmith {
-  height: 19px;
-  width: 19px;
   background-color: #F085A0;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right:10px;
 }
 .jubilee {
-  height: 19px;
-  width: 19px;
   background-color: #959CA1;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right:10px;
 }
 .metropolitan {
-  height: 19px;
-  width: 19px;
   background-color: #99305E;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right:10px;
 }
 .northern {
-  height: 19px;
-  width: 19px;
   background-color: #231F20;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right:10px;
 }
 .overground {
-  height: 19px;
-  width: 19px;
   background-color: #E76A10;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right:10px;
 }
 .piccadilly {
-  height: 19px;
-  width: 19px;
   background-color: #1B3F94;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right:10px;
 }
 .victoria {
-  height: 19px;
-  width: 19px;
   background-color: #379DDC;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right:10px;
 }
 .waterloo {
+  background-color: #84CDBC;
+}
+
+
+span {
   height: 19px;
   width: 19px;
-  background-color: #84CDBC;
   border-radius: 50%;
   display: inline-block;
   margin-right:10px;
@@ -151,6 +95,9 @@ padding-top: 50px;
   margin-left: 10%;
 }
 
+.colorGreen {
+  color: green;
+}
 
 
 
