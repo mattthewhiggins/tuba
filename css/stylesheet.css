@@ -1,5 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background-color: white;
 }
 
 .bakerloo {
@@ -42,6 +44,41 @@ body {
   background-color: #84CDBC;
 }
 
+/* styling for cv button */
+.button {
+  height: 64px;
+  font-size: 24px;
+  color: #fff;
+  background: #0C2BFF;
+  border-radius: 100px;
+  width: 200px;
+  cursor: pointer;
+  border: 0;
+  margin: 0 auto;
+
+  transition: color 0.3s ease; /* vendorless fallback */
+  -o-transition: color 0.3s ease; /* opera */
+  -ms-transition: color 0.3s ease; /* IE 10 */
+  -moz-transition: color 0.3s ease; /* Firefox */
+  -webkit-transition: color 0.3s ease; /*safari and chrome */
+
+  transition: background 0.3s ease; /* vendorless fallback */
+  -o-transition: background 0.3s ease; /* opera */
+  -ms-transition: background 0.3s ease; /* IE 10 */
+  -moz-transition: background 0.3s ease; /* Firefox */
+  -webkit-transition: background 0.3s ease; /*safari and chrome */
+}
+.button:hover {
+  background: #0922CC;
+  color: #fff;
+}
+.button:focus {
+  outline: 0;
+}
+.button-wrapper {
+  width: 200px;
+  margin: 0 auto;
+}
 
 span {
   height: 19px;
@@ -50,84 +87,61 @@ span {
   display: inline-block;
   margin-right:10px;
 }
-
-.title {
-  display: inline-block;
-  margin-bottom:0;
+h1 {
+  font-size: 32px;
 }
-
 h2 {
+  font-size: 24px;
   font-weight: 400;
 }
 h3 {
+  font-size: 18px;
   margin-top: 10px;
   margin-bottom: 0;
 }
 
-.logo-title {
-  width: 192px;;
-  margin: 0 auto;
-}
-
-
 .logo {
-height: 90px;
-margin-left: 48px;
-padding-top: 50px;
+  height: 90px;
+}
+.logo-wrapper {
+  width: 90px;
+  margin: auto;
+  padding-top: 50px;
 }
 
-}
-
-.text-centered {
+.title {
   text-align: center;
 }
 
-.tube {
-  width:33.33%;
-  padding-left: 24px;
-  padding-right: 24px;
-}
-
 .tube-list {
-  display: flex;
-  margin-top: 50px;
-  margin-right: 10%;
-  margin-bottom: 50px;
-  margin-left: 10%;
+  display: inline-block;
+  padding-left: 10%;
+  padding-top: 50px;
+}
+.tube-title {
+  display: inline-block;
+  margin-bottom: 0;
 }
 
-.colorGreen {
-  color: green;
-}
-
-/* test grid */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-
-/* styles for 0 - 1280 */
-@media only screen and (max-width: 768px) {
-
+/* Create four equal columns that floats next to each other */
 .tube {
-  width: 100%;
-  padding-left: 0;
-  padding-right: 0;
-  margin-top: 25px;
+  float: left;
+  width: 33%;
+  padding-bottom: 50px;
+  display: inline-block;
 }
 
-.tube-list {
-  display: block;
-  margin-top: 0;
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .tube {
+    width: 50%;
+  }
 }
 
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .tube {
+    width: 100%;
+    padding-top: 25px;
+  }
 }
