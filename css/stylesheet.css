@@ -10,9 +10,6 @@ span {
   display: inline-block;
   margin-right:10px;
 }
-h1 {
-  font-size: 32px;
-}
 h2 {
   font-size: 24px;
   font-weight: 400;
@@ -63,6 +60,24 @@ h3 {
 .waterloo {
   background-color: #84CDBC;
 }
+.dlr {
+  background-color: #00AFAD;
+}
+.tfl-rail {
+  background-color: #0018A8;
+}
+.tram {
+  background-color: #66CC00;
+}
+
+/* colour code for status text */
+.bad {
+  color: blue;
+}
+.good {
+  color: black;
+}
+
 
 /* styling for cv button */
 .button {
@@ -114,7 +129,7 @@ h3 {
 }
 
 /* spacing for list of tubes */
-.tube-list {
+.list {
   display: inline-block;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -149,7 +164,7 @@ h3 {
   .logo-wrapper {
     padding-top: 25px;
   }
-  .tube-list {
+  .list {
     display: inline-block;
     padding-top: 0;
     padding-left: 10%;

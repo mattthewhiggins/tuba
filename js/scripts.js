@@ -1,5 +1,5 @@
 // Bakerloo status
-$.getJSON ('https://api.tfl.gov.uk/Line/bakerloo/Status?detail=true&app_key=d5546d678eb40a02b7828e0959089660&app_id=2f02d1e2', function(data) { console.log(data);
+$.getJSON ('https://api.tfl.gov.uk/Line/bakerloo/Status?detail=false&app_id=2f02d1e2&app_key=d5546d678eb40a02b7828e0959089660', function(data) { console.log(data);
 
 $.each(data, function (index, value) {
   console.log(value);
@@ -12,7 +12,7 @@ $.each(data, function (index, value) {
 });
 
 // Central status
-$.getJSON ('https://api.tfl.gov.uk/Line/central/Status?detail=true&app_key=d5546d678eb40a02b7828e0959089660&app_id=2f02d1e2', function(data) { console.log(data);
+$.getJSON ('https://api.tfl.gov.uk/Line/central/Status?detail=false&app_id=2f02d1e2&app_key=d5546d678eb40a02b7828e0959089660', function(data) { console.log(data);
 
 $.each(data, function (index, value) {
   console.log(value);
@@ -25,7 +25,7 @@ $.each(data, function (index, value) {
 });
 
 // Circle status
-$.getJSON ('https://api.tfl.gov.uk/Line/circle/Status?detail=true&app_key=d5546d678eb40a02b7828e0959089660&app_id=2f02d1e2', function(data) { console.log(data);
+$.getJSON ('https://api.tfl.gov.uk/Line/circle/Status?detail=false&app_id=2f02d1e2&app_key=d5546d678eb40a02b7828e0959089660', function(data) { console.log(data);
 
 $.each(data, function (index, value) {
   console.log(value);
@@ -38,7 +38,7 @@ $.each(data, function (index, value) {
 });
 
 // District status
-$.getJSON ('https://api.tfl.gov.uk/Line/district/Status?detail=true&app_key=d5546d678eb40a02b7828e0959089660&app_id=2f02d1e2', function(data) { console.log(data);
+$.getJSON ('https://api.tfl.gov.uk/Line/district/Status?detail=false&app_id=2f02d1e2&app_key=d5546d678eb40a02b7828e0959089660', function(data) { console.log(data);
 
 $.each(data, function (index, value) {
   console.log(value);
@@ -51,7 +51,7 @@ $.each(data, function (index, value) {
 });
 
 // Hammersmith status
-$.getJSON ('https://api.tfl.gov.uk/Line/hammersmith-city/Status?detail=true&app_key=d5546d678eb40a02b7828e0959089660&app_id=2f02d1e2', function(data) { console.log(data);
+$.getJSON ('https://api.tfl.gov.uk/Line/hammersmith-city/Status?detail=false&app_id=2f02d1e2&app_key=d5546d678eb40a02b7828e0959089660', function(data) { console.log(data);
 
 $.each(data, function (index, value) {
   console.log(value);
@@ -64,7 +64,7 @@ $.each(data, function (index, value) {
 });
 
 // Jubilee status
-$.getJSON ('https://api.tfl.gov.uk/Line/jubilee/Status?detail=true&app_key=d5546d678eb40a02b7828e0959089660&app_id=2f02d1e2', function(data) { console.log(data);
+$.getJSON ('https://api.tfl.gov.uk/Line/jubilee/Status?detail=false&app_id=2f02d1e2&app_key=d5546d678eb40a02b7828e0959089660', function(data) { console.log(data);
 
 $.each(data, function (index, value) {
   console.log(value);
@@ -77,7 +77,7 @@ $.each(data, function (index, value) {
 });
 
 // Metropolitan status
-$.getJSON ('https://api.tfl.gov.uk/Line/metropolitan/Status?detail=true&app_key=d5546d678eb40a02b7828e0959089660&app_id=2f02d1e2', function(data) { console.log(data);
+$.getJSON ('https://api.tfl.gov.uk/Line/metropolitan/Status?detail=false&app_id=2f02d1e2&app_key=d5546d678eb40a02b7828e0959089660', function(data) { console.log(data);
 
 $.each(data, function (index, value) {
   console.log(value);
@@ -90,7 +90,7 @@ $.each(data, function (index, value) {
 });
 
 // Northern status
-$.getJSON ('https://api.tfl.gov.uk/Line/northern/Status?detail=true&app_key=d5546d678eb40a02b7828e0959089660&app_id=2f02d1e2', function(data) { console.log(data);
+$.getJSON ('https://api.tfl.gov.uk/Line/northern/Status?detail=false&app_id=2f02d1e2&app_key=d5546d678eb40a02b7828e0959089660', function(data) { console.log(data);
 
 $.each(data, function (index, value) {
   console.log(value);
@@ -103,7 +103,7 @@ $.each(data, function (index, value) {
 });
 
 // Overground status
-$.getJSON ('https://api.tfl.gov.uk/Line/london-overground/Status?detail=true&app_key=d5546d678eb40a02b7828e0959089660&app_id=2f02d1e2', function(data) { console.log(data);
+$.getJSON ('https://api.tfl.gov.uk/Line/london-overground/Status?detail=false&app_id=2f02d1e2&app_key=d5546d678eb40a02b7828e0959089660', function(data) { console.log(data);
 
 $.each(data, function (index, value) {
   console.log(value);
@@ -116,7 +116,7 @@ $.each(data, function (index, value) {
 });
 
 // Piccadilly status
-$.getJSON ('https://api.tfl.gov.uk/Line/piccadilly/Status?detail=true&app_key=d5546d678eb40a02b7828e0959089660&app_id=2f02d1e2', function(data) { console.log(data);
+$.getJSON ('https://api.tfl.gov.uk/Line/piccadilly/Status?detail=false&app_id=2f02d1e2&app_key=d5546d678eb40a02b7828e0959089660', function(data) { console.log(data);
 
 $.each(data, function (index, value) {
   console.log(value);
@@ -129,7 +129,7 @@ $.each(data, function (index, value) {
 });
 
 // Victoria status
-$.getJSON ('https://api.tfl.gov.uk/Line/victoria/Status?detail=true&app_key=d5546d678eb40a02b7828e0959089660&app_id=2f02d1e2', function(data) { console.log(data);
+$.getJSON ('https://api.tfl.gov.uk/Line/victoria/Status?detail=false&app_id=2f02d1e2&app_key=d5546d678eb40a02b7828e0959089660', function(data) { console.log(data);
 
 $.each(data, function (index, value) {
   console.log(value);
@@ -142,7 +142,7 @@ $.each(data, function (index, value) {
 });
 
 // Waterloo & City status
-$.getJSON ('https://api.tfl.gov.uk/Line/waterloo-city/Status?detail=true&app_key=d5546d678eb40a02b7828e0959089660&app_id=2f02d1e2', function(data) { console.log(data);
+$.getJSON ('https://api.tfl.gov.uk/Line/waterloo-city/Status?detail=false&app_id=2f02d1e2&app_key=d5546d678eb40a02b7828e0959089660', function(data) { console.log(data);
 
 $.each(data, function (index, value) {
   console.log(value);
@@ -151,5 +151,44 @@ $.each(data, function (index, value) {
   console.log(statuswaterloo);
 
   $('.statuswaterloo').text(statuswaterloo);
+    });
+});
+
+// DLR status
+$.getJSON ('https://api.tfl.gov.uk/Line/dlr/Status?detail=false&app_id=2f02d1e2&app_key=d5546d678eb40a02b7828e0959089660', function(data) { console.log(data);
+
+$.each(data, function (index, value) {
+  console.log(value);
+
+  var statusdlr = value.lineStatuses[0].statusSeverityDescription;
+  console.log(statusdlr);
+
+  $('.statusdlr').text(statusdlr);
+    });
+});
+
+// Tfl Rail status
+$.getJSON ('https://api.tfl.gov.uk/Line/tfl-rail/Status?detail=false&app_id=2f02d1e2&app_key=d5546d678eb40a02b7828e0959089660', function(data) { console.log(data);
+
+$.each(data, function (index, value) {
+  console.log(value);
+
+  var statusrail = value.lineStatuses[0].statusSeverityDescription;
+  console.log(statusrail);
+
+  $('.statusrail').text(statusrail);
+    });
+});
+
+// Tram status
+$.getJSON ('https://api.tfl.gov.uk/Line/tram/Status?detail=false&app_id=2f02d1e2&app_key=d5546d678eb40a02b7828e0959089660', function(data) { console.log(data);
+
+$.each(data, function (index, value) {
+  console.log(value);
+
+  var statustram = value.lineStatuses[0].statusSeverityDescription;
+  console.log(statustram);
+
+  $('.statustram').text(statustram);
     });
 });
