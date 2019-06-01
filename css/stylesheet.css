@@ -70,7 +70,7 @@ h3 {
   background-color: #66CC00;
 }
 
-/* styling for cv button */
+/* styling for button */
 .button {
   height: 64px;
   font-size: 24px;
@@ -119,13 +119,15 @@ h3 {
   padding-top: 50px;
 }
 
-/* spacing for list of tubes */
+/* spacing for list */
 .list {
   display: inline-block;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 10%;
 }
+
+/* makes title align with dot */
 .tube-title {
   display: inline-block;
   margin-bottom: 0;
@@ -139,7 +141,7 @@ h3 {
   display: inline-block;
 }
 
-/* On screens that are 992px wide or less, go from four columns to two columns */
+/* On screens that are 992px wide or less, go from 3 columns to 2 columns */
 @media screen and (max-width: 992px) {
   .tube {
     width: 50%;
