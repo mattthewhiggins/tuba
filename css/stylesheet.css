@@ -70,15 +70,6 @@ h3 {
   background-color: #66CC00;
 }
 
-/* colour code for status text */
-.bad {
-  color: blue;
-}
-.good {
-  color: black;
-}
-
-
 /* styling for cv button */
 .button {
   height: 64px;
