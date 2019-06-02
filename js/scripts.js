@@ -8,6 +8,10 @@ $.each(data, function (index, value) {
   console.log(statusbakerloo);
 
   $('.statusbakerloo').text(statusbakerloo);
+
+  if (statuswaterloo != "Good Service") {
+    $('.statuswaterloo').css('color', 'red')
+  }
     });
 });
 
@@ -21,6 +25,10 @@ $.each(data, function (index, value) {
   console.log(statuscentral);
 
   $('.statuscentral').text(statuscentral);
+
+  if (statuscentral != "Good Service") {
+    $('.statuscentral').css('color', 'red')
+  }
     });
 });
 
@@ -34,6 +42,10 @@ $.each(data, function (index, value) {
   console.log(statuscircle);
 
   $('.statuscircle').text(statuscircle);
+
+  if (statuscircle != "Good Service") {
+    $('.statuscircle').css('color', 'red')
+  }
     });
 });
 
@@ -47,6 +59,10 @@ $.each(data, function (index, value) {
   console.log(statusdistrict);
 
   $('.statusdistrict').text(statusdistrict);
+
+  if (statusdistrict != "Good Service") {
+    $('.statusdistrict').css('color', 'red')
+  }
     });
 });
 
@@ -60,6 +76,10 @@ $.each(data, function (index, value) {
   console.log(statushammersmith);
 
   $('.statushammersmith').text(statushammersmith);
+
+  if (statushammersmith != "Good Service") {
+    $('.statushammersmith').css('color', 'red')
+  }
     });
 });
 
@@ -73,6 +93,10 @@ $.each(data, function (index, value) {
   console.log(statusjubilee);
 
   $('.statusjubilee').text(statusjubilee);
+
+  if (statusjubilee != "Good Service") {
+    $('.statusjubilee').css('color', 'red')
+  }
     });
 });
 
@@ -86,6 +110,10 @@ $.each(data, function (index, value) {
   console.log(statusmetropolitan);
 
   $('.statusmetropolitan').text(statusmetropolitan);
+
+  if (statusmetropolitan != "Good Service") {
+    $('.statusmetropolitan').css('color', 'red')
+  }
     });
 });
 
@@ -99,6 +127,10 @@ $.each(data, function (index, value) {
   console.log(statusnorthern);
 
   $('.statusnorthern').text(statusnorthern);
+
+  if (statusnorthern != "Good Service") {
+    $('.statusnorthern').css('color', 'red')
+  }
     });
 });
 
@@ -112,6 +144,10 @@ $.each(data, function (index, value) {
   console.log(statusoverground);
 
   $('.statusoverground').text(statusoverground);
+
+  if (statusoverground != "Good Service") {
+    $('.statusoverground').css('color', 'red')
+  }
     });
 });
 
@@ -125,6 +161,10 @@ $.each(data, function (index, value) {
   console.log(statuspiccadilly);
 
   $('.statuspiccadilly').text(statuspiccadilly);
+
+  if (statuspiccadilly != "Good Service") {
+    $('.statuspiccadilly').css('color', 'red')
+  }
     });
 });
 
@@ -138,6 +178,10 @@ $.each(data, function (index, value) {
   console.log(statusvictoria);
 
   $('.statusvictoria').text(statusvictoria);
+
+  if (statusvictoria != "Good Service") {
+    $('.statusvictoria').css('color', 'red')
+  }
     });
 });
 
@@ -151,6 +195,11 @@ $.each(data, function (index, value) {
   console.log(statuswaterloo);
 
   $('.statuswaterloo').text(statuswaterloo);
+
+  if (statuswaterloo != "Good Service") {
+    $('.statuswaterloo').css('color', 'red')
+  }
+
     });
 });
 
@@ -164,6 +213,10 @@ $.each(data, function (index, value) {
   console.log(statusdlr);
 
   $('.statusdlr').text(statusdlr);
+
+  if (statusdlr != "Good Service") {
+    $('.statusdlr').css('color', 'red')
+  }
     });
 });
 
@@ -177,6 +230,10 @@ $.each(data, function (index, value) {
   console.log(statusrail);
 
   $('.statusrail').text(statusrail);
+
+  if (statusrail != "Good Service") {
+    $('.statusrail').css('color', 'red')
+  }
     });
 });
 
@@ -190,5 +247,9 @@ $.each(data, function (index, value) {
   console.log(statustram);
 
   $('.statustram').text(statustram);
+
+  if (statustram != "Good Service") {
+    $('.statustram').css('color', 'red')
+  }
     });
 });
