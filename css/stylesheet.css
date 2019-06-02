@@ -73,6 +73,154 @@ h3 {
   background-color: #66CC00;
 }
 
+/* status colour */
+.statusbakerloo {
+  color:#0C2BFF;
+}
+.statuscentral {
+  color:#0C2BFF;
+}
+.statuscircle {
+  color:#0C2BFF;
+}
+.statusdistrict {
+  color:#0C2BFF;
+}
+.statushammersmith {
+  color:#0C2BFF;
+}
+.statusjubilee {
+  color:#0C2BFF;
+}
+.statusmetropolitan {
+  color:#0C2BFF;
+}
+.statusnorthern {
+  color:#0C2BFF;
+}
+.statusoverground {
+  color:#0C2BFF;
+}
+.statuspiccadilly {
+  color:#0C2BFF;
+}
+.statusvictoria {
+  color:#0C2BFF;
+}
+.statuswaterloo {
+  color:#0C2BFF;
+}
+.statusdlr {
+  color:#0C2BFF;
+}
+.statusrail {
+  color:#0C2BFF;
+}
+.statustram {
+  color:#0C2BFF;
+}
+
+
+
+
+/* containers for tubes */
+.tube-bakerloo {
+  float: left;
+  width: 33%;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+.tube-central {
+  float: left;
+  width: 33%;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+.tube-circle {
+  float: left;
+  width: 33%;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+.tube-district {
+  float: left;
+  width: 33%;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+.tube-elizabeth {
+  float: left;
+  width: 33%;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+.tube-hammersmith {
+  float: left;
+  width: 33%;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+.tube-jubilee {
+  float: left;
+  width: 33%;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+.tube-metropolitan {
+  float: left;
+  width: 33%;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+.tube-northern {
+  float: left;
+  width: 33%;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+.tube-overground {
+  float: left;
+  width: 33%;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+.tube-piccadilly {
+  float: left;
+  width: 33%;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+.tube-victoria {
+  float: left;
+  width: 33%;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+.tube-waterloo {
+  float: left;
+  width: 33%;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+.tube-dlr {
+  float: left;
+  width: 33%;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+.tube-rail {
+  float: left;
+  width: 33%;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+.tube-tram {
+  float: left;
+  width: 33%;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+
 /* styling for button */
 .button {
   height: 64px;
@@ -131,16 +279,12 @@ h3 {
   padding-right: 10%;
 }
 
-/* hides div */
-.noShow {
-  display: none;
-}
-
 /* spacing for list */
 .list {
   display: inline-block;
   padding-bottom: 50px;
   padding-left: 10%;
+  width: 100%;
 }
 
 /* makes title align with dot */
@@ -162,7 +306,52 @@ h3 {
   h1 {
     font-size: 72px;
     }
-  .tube {
+    .tube-bakerloo {
+      width: 50%;
+    }
+    .tube-central {
+      width: 50%;
+    }
+    .tube-circle {
+      width: 50%;
+    }
+    .tube-district {
+      width: 50%;
+    }
+    .tube-elizabeth {
+      width: 50%;
+    }
+    .tube-hammersmith {
+      width: 50%;
+    }
+    .tube-jubilee {
+      width: 50%;
+    }
+    .tube-metropolitan {
+      width: 50%;
+    }
+    .tube-northern {
+      width: 50%;
+    }
+    .tube-overground {
+      width: 50%;
+    }
+    .tube-piccadilly {
+      width: 50%;
+    }
+    .tube-victoria {
+      width: 50%;
+    }
+    .tube-waterloo {
+      width: 50%;
+    }
+    .tube-dlr {
+      width: 50%;
+    }
+    .tube-rail {
+      width: 50%;
+    }
+    .tube-tram {
       width: 50%;
     }
 }
@@ -172,12 +361,56 @@ h3 {
   h1 {
       font-size: 56px;
       margin-top: 25px;
-      margin-bottom: 0;
     }
-  .tube {
-    width: 100%;
-    padding-top: 25px;
-  }
+    .tube-bakerloo {
+      width: 100%;
+    }
+    .tube-central {
+      width: 100%;
+    }
+    .tube-circle {
+      width: 100%;
+    }
+    .tube-district {
+      width: 100%;
+    }
+    .tube-elizabeth {
+      width: 100%;
+    }
+    .tube-hammersmith {
+      width: 100%;
+    }
+    .tube-jubilee {
+      width: 100%;
+    }
+    .tube-metropolitan {
+      width: 100%;
+    }
+    .tube-northern {
+      width: 100%;
+    }
+    .tube-overground {
+      width: 100%;
+    }
+    .tube-piccadilly {
+      width: 100%;
+    }
+    .tube-victoria {
+      width: 100%;
+    }
+    .tube-waterloo {
+      width: 100%;
+    }
+    .tube-dlr {
+      width: 100%;
+    }
+    .tube-rail {
+      width: 100%;
+    }
+    .tube-tram {
+      width: 100%;
+    }
+
   .list {
     display: inline-block;
     padding-top: 0;

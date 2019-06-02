@@ -9,8 +9,8 @@ $.each(data, function (index, value) {
 
   $('.statusbakerloo').text(statusbakerloo);
 
-  if (statusbakerloo != "Good Service") {
-    $('.statusbakerloo').css('color', 'red')
+  if (statusbakerloo == "Good Service") {
+    $('.tube-bakerloo').css('display', 'none')
   }
     });
 });
@@ -26,8 +26,8 @@ $.each(data, function (index, value) {
 
   $('.statuscentral').text(statuscentral);
 
-  if (statuscentral != "Good Service") {
-    $('.statuscentral').css('color', 'red')
+  if (statuscentral == "Good Service") {
+    $('.tube-central').css('display', 'none')
   }
     });
 });
@@ -43,8 +43,8 @@ $.each(data, function (index, value) {
 
   $('.statuscircle').text(statuscircle);
 
-  if (statuscircle != "Good Service") {
-    $('.statuscircle').css('color', 'red')
+  if (statuscircle == "Good Service") {
+    $('.tube-circle').css('display', 'none')
   }
     });
 });
@@ -60,8 +60,8 @@ $.each(data, function (index, value) {
 
   $('.statusdistrict').text(statusdistrict);
 
-  if (statusdistrict != "Good Service") {
-    $('.statusdistrict').css('color', 'red')
+  if (statusdistrict == "Good Service") {
+    $('.tube-district').css('display', 'none')
   }
     });
 });
@@ -77,8 +77,8 @@ $.each(data, function (index, value) {
 
   $('.statushammersmith').text(statushammersmith);
 
-  if (statushammersmith != "Good Service") {
-    $('.statushammersmith').css('color', 'red')
+  if (statushammersmith == "Good Service") {
+    $('.tube-hammersmith').css('display', 'none')
   }
     });
 });
@@ -94,8 +94,8 @@ $.each(data, function (index, value) {
 
   $('.statusjubilee').text(statusjubilee);
 
-  if (statusjubilee != "Good Service") {
-    $('.statusjubilee').css('color', 'red')
+  if (statusjubilee == "Good Service") {
+    $('.tube-jubilee').css('display', 'none')
   }
     });
 });
@@ -111,8 +111,8 @@ $.each(data, function (index, value) {
 
   $('.statusmetropolitan').text(statusmetropolitan);
 
-  if (statusmetropolitan != "Good Service") {
-    $('.statusmetropolitan').css('color', 'red')
+  if (statusmetropolitan == "Good Service") {
+    $('.tube-metropolitan').css('display', 'none')
   }
     });
 });
@@ -128,8 +128,8 @@ $.each(data, function (index, value) {
 
   $('.statusnorthern').text(statusnorthern);
 
-  if (statusnorthern != "Good Service") {
-    $('.statusnorthern').css('color', 'red')
+  if (statusnorthern == "Good Service") {
+    $('.tube-northern').css('display', 'none')
   }
     });
 });
@@ -145,8 +145,8 @@ $.each(data, function (index, value) {
 
   $('.statusoverground').text(statusoverground);
 
-  if (statusoverground != "Good Service") {
-    $('.statusoverground').css('color', 'red')
+  if (statusoverground == "Good Service") {
+    $('.tube-overground').css('display', 'none')
   }
     });
 });
@@ -162,8 +162,8 @@ $.each(data, function (index, value) {
 
   $('.statuspiccadilly').text(statuspiccadilly);
 
-  if (statuspiccadilly != "Good Service") {
-    $('.statuspiccadilly').css('color', 'red')
+  if (statuspiccadilly == "Good Service") {
+    $('.tube-piccadilly').css('display', 'none')
   }
     });
 });
@@ -179,8 +179,8 @@ $.each(data, function (index, value) {
 
   $('.statusvictoria').text(statusvictoria);
 
-  if (statusvictoria != "Good Service") {
-    $('.statusvictoria').css('color', 'red')
+  if (statusvictoria == "Good Service") {
+    $('.tube-victoria').css('display', 'none')
   }
     });
 });
@@ -196,8 +196,8 @@ $.each(data, function (index, value) {
 
   $('.statuswaterloo').text(statuswaterloo);
 
-  if (statuswaterloo != "Good Service") {
-    $('.statuswaterloo').css('color', 'red')
+  if (statuswaterloo == "Good Service") {
+    $('.tube-waterloo').css('display', 'none')
   }
 
     });
@@ -214,8 +214,8 @@ $.each(data, function (index, value) {
 
   $('.statusdlr').text(statusdlr);
 
-  if (statusdlr != "Good Service") {
-    $('.statusdlr').css('color', 'red')
+  if (statusdlr == "Good Service") {
+    $('.tube-dlr').css('display', 'none')
   }
     });
 });
@@ -231,8 +231,8 @@ $.each(data, function (index, value) {
 
   $('.statusrail').text(statusrail);
 
-  if (statusrail != "Good Service") {
-    $('.statusrail').css('color', 'red')
+  if (statusrail == "Good Service") {
+    $('.tube-rail').css('display', 'none')
   }
     });
 });
@@ -248,8 +248,8 @@ $.each(data, function (index, value) {
 
   $('.statustram').text(statustram);
 
-  if (statustram != "Good Service") {
-    $('.statustram').css('color', 'red')
+  if (statustram == "Good Service") {
+    $('.tube-tram').css('display', 'none')
   }
     });
 });
