@@ -10,6 +10,9 @@ span {
   display: inline-block;
   margin-right:10px;
 }
+h1 {
+  font-size: 120px;
+}
 h2 {
   font-size: 24px;
   font-weight: 400;
@@ -70,11 +73,6 @@ h3 {
   background-color: #66CC00;
 }
 
-/* makes text colour red */
-.statusbad {
-  color: #0C2BFF;
-}
-
 /* styling for button */
 .button {
   height: 64px;
@@ -127,10 +125,20 @@ h3 {
   padding-top: 37px;
 }
 
+/* spacing for intro */
+.content-width {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* hides div */
+.noShow {
+  display: none;
+}
+
 /* spacing for list */
 .list {
   display: inline-block;
-  padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 10%;
 }
@@ -151,13 +159,21 @@ h3 {
 
 /* On screens that are 992px wide or less, go from 3 columns to 2 columns */
 @media screen and (max-width: 992px) {
+  h1 {
+    font-size: 72px;
+    }
   .tube {
-    width: 50%;
-  }
+      width: 50%;
+    }
 }
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
+  h1 {
+      font-size: 56px;
+      margin-top: 25px;
+      margin-bottom: 0;
+    }
   .tube {
     width: 100%;
     padding-top: 25px;
@@ -170,9 +186,4 @@ h3 {
   .tube {
     padding-bottom: 0;
   }
-}
-
-
-.statuswaterloobad {
-  color: red;
 }
