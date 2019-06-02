@@ -9,8 +9,8 @@ $.each(data, function (index, value) {
 
   $('.statusbakerloo').text(statusbakerloo);
 
-  if (statuswaterloo != "Good Service") {
-    $('.statuswaterloo').css('color', 'red')
+  if (statusbakerloo != "Good Service") {
+    $('.statusbakerloo').css('color', 'red')
   }
     });
 });
