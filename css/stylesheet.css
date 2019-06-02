@@ -404,12 +404,6 @@ h3 {
     .tube-tram {
       width: 100%;
     }
-
-  .list {
-    display: inline-block;
-    padding-top: 0;
-    padding-left: 10%;
-  }
   .tube {
     padding-bottom: 0;
   }
