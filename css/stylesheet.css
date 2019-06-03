@@ -51,7 +51,7 @@ h3 {
 .northern {
   background-color: #231F20;
 }
-.overground {
+.london-overground {
   background-color: #E76A10;
 }
 .piccadilly {
@@ -74,149 +74,18 @@ h3 {
 }
 
 /* changes status font colour */
-.statusbakerloo {
-  color:#0C2BFF;
-}
-.statuscentral {
-  color:#0C2BFF;
-}
-.statuscircle {
-  color:#0C2BFF;
-}
-.statusdistrict {
-  color:#0C2BFF;
-}
-.statushammersmith {
-  color:#0C2BFF;
-}
-.statusjubilee {
-  color:#0C2BFF;
-}
-.statusmetropolitan {
-  color:#0C2BFF;
-}
-.statusnorthern {
-  color:#0C2BFF;
-}
-.statusoverground {
-  color:#0C2BFF;
-}
-.statuspiccadilly {
-  color:#0C2BFF;
-}
-.statusvictoria {
-  color:#0C2BFF;
-}
-.statuswaterloo {
-  color:#0C2BFF;
-}
-.statusdlr {
-  color:#0C2BFF;
-}
-.statusrail {
-  color:#0C2BFF;
-}
-.statustram {
+.status-color {
   color:#0C2BFF;
 }
 
 /* lays out each tube div 1/3 width */
-.tube-bakerloo {
+.tube-layout {
   float: left;
   width: 33%;
   padding-bottom: 50px;
   display: inline-block;
 }
-.tube-central {
-  float: left;
-  width: 33%;
-  padding-bottom: 50px;
-  display: inline-block;
-}
-.tube-circle {
-  float: left;
-  width: 33%;
-  padding-bottom: 50px;
-  display: inline-block;
-}
-.tube-district {
-  float: left;
-  width: 33%;
-  padding-bottom: 50px;
-  display: inline-block;
-}
-.tube-elizabeth {
-  float: left;
-  width: 33%;
-  padding-bottom: 50px;
-  display: inline-block;
-}
-.tube-hammersmith {
-  float: left;
-  width: 33%;
-  padding-bottom: 50px;
-  display: inline-block;
-}
-.tube-jubilee {
-  float: left;
-  width: 33%;
-  padding-bottom: 50px;
-  display: inline-block;
-}
-.tube-metropolitan {
-  float: left;
-  width: 33%;
-  padding-bottom: 50px;
-  display: inline-block;
-}
-.tube-northern {
-  float: left;
-  width: 33%;
-  padding-bottom: 50px;
-  display: inline-block;
-}
-.tube-overground {
-  float: left;
-  width: 33%;
-  padding-bottom: 50px;
-  display: inline-block;
-}
-.tube-piccadilly {
-  float: left;
-  width: 33%;
-  padding-bottom: 50px;
-  display: inline-block;
-}
-.tube-victoria {
-  float: left;
-  width: 33%;
-  padding-bottom: 50px;
-  display: inline-block;
-}
-.tube-waterloo {
-  float: left;
-  width: 33%;
-  padding-bottom: 50px;
-  display: inline-block;
-}
-.tube-dlr {
-  float: left;
-  width: 33%;
-  padding-bottom: 50px;
-  display: inline-block;
-}
-.tube-rail {
-  float: left;
-  width: 33%;
-  padding-bottom: 50px;
-  display: inline-block;
-}
-.tube-tram {
-  float: left;
-  width: 33%;
-  padding-bottom: 50px;
-  display: inline-block;
-}
+
 
 /* styling for button */
 .button {
