@@ -18,6 +18,7 @@ h1 {
 h2 {
   font-size: 24px;
   font-weight: 400;
+  margin-top: 24px;
 }
 h3 {
   font-size: 18px;
@@ -155,7 +156,7 @@ h3 {
 /* makes title align with dot */
 .tube-title {
   display: inline-block;
-  margin-bottom: 1px;
+  margin-bottom: 0;
 }
 
 /* Create 3 equal columns that floats next to each other */
@@ -183,55 +184,6 @@ h3 {
       font-size: 48px;
       margin-top: 24px;
       margin-bottom: 24px;
-
-    }
-    .tube-bakerloo {
-      width: 100%;
-    }
-    .tube-central {
-      width: 100%;
-    }
-    .tube-circle {
-      width: 100%;
-    }
-    .tube-district {
-      width: 100%;
-    }
-    .tube-elizabeth {
-      width: 100%;
-    }
-    .tube-hammersmith {
-      width: 100%;
-    }
-    .tube-jubilee {
-      width: 100%;
-    }
-    .tube-metropolitan {
-      width: 100%;
-    }
-    .tube-northern {
-      width: 100%;
-    }
-    .tube-overground {
-      width: 100%;
-    }
-    .tube-piccadilly {
-      width: 100%;
-    }
-    .tube-victoria {
-      width: 100%;
-    }
-    .tube-waterloo {
-      width: 100%;
-    }
-    .tube-dlr {
-      width: 100%;
-    }
-    .tube-rail {
-      width: 100%;
-    }
-    .tube-tram {
-      width: 100%;
     }
   .tube-layout {
     width: 100%;
