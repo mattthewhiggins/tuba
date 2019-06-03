@@ -11,7 +11,7 @@ span {
   margin-right:10px;
 }
 h1 {
-  font-size: 120px;
+  font-size: 100px;
 }
 h2 {
   font-size: 24px;
@@ -169,54 +169,10 @@ h3 {
   h1 {
     font-size: 72px;
     }
-    .tube-bakerloo {
+    .tube-layout {
       width: 50%;
     }
-    .tube-central {
-      width: 50%;
-    }
-    .tube-circle {
-      width: 50%;
-    }
-    .tube-district {
-      width: 50%;
-    }
-    .tube-elizabeth {
-      width: 50%;
-    }
-    .tube-hammersmith {
-      width: 50%;
-    }
-    .tube-jubilee {
-      width: 50%;
-    }
-    .tube-metropolitan {
-      width: 50%;
-    }
-    .tube-northern {
-      width: 50%;
-    }
-    .tube-overground {
-      width: 50%;
-    }
-    .tube-piccadilly {
-      width: 50%;
-    }
-    .tube-victoria {
-      width: 50%;
-    }
-    .tube-waterloo {
-      width: 50%;
-    }
-    .tube-dlr {
-      width: 50%;
-    }
-    .tube-rail {
-      width: 50%;
-    }
-    .tube-tram {
-      width: 50%;
-    }
+
 }
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
@@ -273,7 +229,8 @@ h3 {
     .tube-tram {
       width: 100%;
     }
-  .tube {
+  .tube-layout {
+    width: 100%;
     padding-bottom: 0;
   }
 }
