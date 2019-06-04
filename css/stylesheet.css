@@ -3,6 +3,8 @@ body {
   margin: 0;
   background-color: white;
 }
+
+/* makes a circle for tube line */
 span {
   height: 19px;
   width: 19px;
@@ -10,6 +12,8 @@ span {
   display: inline-block;
   margin-right:10px;
 }
+
+/* font sizes */
 h1 {
   font-size: 100px;
   margin-top: 32px;
@@ -89,6 +93,16 @@ h3 {
   display: inline-block;
 }
 
+/* spacing for list */
+.list {
+  padding-left: 10%;
+}
+
+/* makes title align with dot */
+.tube-title {
+  display: inline-block;
+  margin-bottom: 0;
+}
 
 /* styling for button */
 .button {
@@ -136,7 +150,6 @@ h3 {
 
 /* centrally aligns logo */
 .logo-wrapper {
-  width: 90px;
   padding-left: 10%;
   margin: 0;
   padding-top: 37px;
@@ -148,25 +161,6 @@ h3 {
   padding-right: 10%;
 }
 
-/* spacing for list */
-.list {
-  padding-left: 10%;
-}
-
-/* makes title align with dot */
-.tube-title {
-  display: inline-block;
-  margin-bottom: 0;
-}
-
-/* Create 3 equal columns that floats next to each other */
-.tube {
-  float: left;
-  width: 33%;
-  padding-bottom: 50px;
-  display: inline-block;
-}
-
 /* On screens that are 992px wide or less, go from 3 columns to 2 columns */
 @media screen and (max-width: 992px) {
   h1 {
@@ -175,7 +169,6 @@ h3 {
     .tube-layout {
       width: 50%;
     }
-
 }
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
