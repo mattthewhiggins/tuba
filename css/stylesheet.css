@@ -180,9 +180,12 @@ h3 {
     }
   .tube-layout {
     width: 100%;
-    padding-bottom: 0;
+    padding-bottom: 24px;
   }
   .logo {
     height: 72px;
+  }
+  .list {
+    padding-bottom: 32px;
   }
 }

@@ -1,4 +1,4 @@
-$.getJSON ('https://api.tfl.gov.uk/Line/Mode/tube%2Cdlr%2Coverground%2Ctflrail/Status?detail=false&app_id=2f02d1e2&app_key=d5546d678eb40a02b7828e0959089660',
+$.getJSON ('https://api.tfl.gov.uk/Line/Mode/tube%2Coverground%2Cdlr%2Ctram%2Ctflrail/Status?detail=false&app_id=2f02d1e2&app_key=d5546d678eb40a02b7828e0959089660',
   function(data) {
 
     const badServices = data.filter(dataItem => dataItem.lineStatuses[0].statusSeverityDescription !== 'Good Service');
